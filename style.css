@@ -6,9 +6,16 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: bisque;
+}
+
 body {
 
-    background-color: rgb(200, 200, 200);
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     min-width: 800px;
 }
 
@@ -17,10 +24,10 @@ body {
 /*---------- nav section ----------*/
 
 nav {
-    background-color: aqua;
-    display: flex;
+    background-color: rgb(13, 63, 82);
     height: auto;
     position: fixed;
+    display: flex;
     width: 100%;
     justify-content: space-between;
     
@@ -36,6 +43,17 @@ nav {
     align-items: center;
     gap: 2rem;
 }
+.nav-menu li {
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    font-family: 'Roboto Slab', serif;
+ }
+
+ .nav-menu li a:hover {
+    cursor: pointer;
+    color: orange;
+ }
 .header {
     display: flex;
     justify-content: center;
