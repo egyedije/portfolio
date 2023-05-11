@@ -12,9 +12,33 @@ body {
     min-width: 800px;
 }
 
+/*------------------------------ HEADER ------------------------------*/
+
+/*---------- nav section ----------*/
+
+nav {
+    background-color: aqua;
+    display: flex;
+    height: auto;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.logo img{
+ 
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
 .header {
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
+    
 
 }
