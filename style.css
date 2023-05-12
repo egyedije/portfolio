@@ -13,8 +13,8 @@ a {
 
 body {
     background: #36D1DC;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to bottom, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     min-width: 800px;
 }
@@ -33,7 +33,7 @@ nav {
 }
 
 .logo img {
-    height: 70px;
+    height: 80px;
     padding-right: 5rem;
 
 }
@@ -48,7 +48,7 @@ nav {
 .nav-menu li {
 
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     letter-spacing: .1rem;
     font-family: 'Roboto Slab', serif;
 }
