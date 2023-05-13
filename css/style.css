@@ -1,0 +1,13 @@
+/*----------------------------------------- GLOBAL -----------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-img{
+    display: flex;
+    height: 100rem;
+    margin-top: -40rem;
+}
